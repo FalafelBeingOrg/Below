@@ -34,7 +34,7 @@ var options =
 	// delay between removing an old passage, and showing the new passage
 	passagedelay: 1500.0,
 	// delay between each line. if set to 0, all text will appear at once
-	linedelay: 1750.0,
+	linedelay: 500.0,
 	// how long it takes for each line to fully appear
 	// for fade, usually mostly visible about 50-75% of the way through
 	showlength: 750.0,
