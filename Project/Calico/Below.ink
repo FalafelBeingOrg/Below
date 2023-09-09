@@ -55,6 +55,7 @@ image: sillouete of a tall birdlike figure on a ferry
 You come to rest at the Asphodel Medows
 ->actThree
 == actThree
+image: woman at a crossroads
 As you journy through the tall red grass, you come to a crossroads
 you see a woman standing up ahead
 Liquids and herbs swirl around her 
@@ -71,6 +72,7 @@ She notices you
 She points
 ->actFour
 ==actFour
+image: hermes on his phone
 You come across a man texting on his phone
 He looks up as soon as you approach
 "Sup man! I'm Hermes! What're you up to> What's your story?"
@@ -83,7 +85,56 @@ He looks up as soon as you approach
 -
 -> actFive
 == actFive
-
+You hear infernal screaming
+-
+image: tartarus
+You come to a massive pit 
+Massive beings write in darkness
+image: black void hovering
+A black void hovers nearby, watching them
+"See them fuckers down there?"
+"Those are the titans"
+"They were locked there by Hades at the end of the last age"
+"Be warned that for however jovial Hades may seem,
+he's a bitch when it comes time to make you an offer"
+* Who are you?
+    "I'm Nyx, God of the night"
+    "Now on your way, weary traveler"
+    #clear
+* [Continue]
+-
+->actSix
+== actSix
+image: hades citadel
+You come to Hade's Citadel
+It stands tall amongst the surrounding planes
+image: throne room with looming sillouete
+As you make your way to Hade's throne room, 
+you hear a booming laughter
+"HEY MORTAL! WELCOME TO MY REALM!"
++ I'm here for vengance
+ "WHAT DO YOU HAVE TO OFFER?"
+ ++ I have to offer something?
+    "HA HA HA HA HA"
+    #delay 1000
+    "YOU HAVE NOTHING TO OFFER?"
+    "LET ME THINK"
+    #delay 6000
+    #clear
+    "YOUR SOUL!!!"
+    #clear
+    "YOUR SOUL FOR THEIRS!"
+    +++ [Offer your soul to plunge your killer into the abyss as well] I'll do it 
+        image: infernal flames
+        As the flames of Tartarus engulf your body,
+        you see your killer buring along side you
+        ->credits
+    +++ [Live out your days in the Asphodel Meadows] I can't
+        "HA HA HA HA HA"
+        Image: asphdel medows
+        As you spend eternity in this empty field,
+        you know your killer will never be brought to justice
+        -> credits
 -
 ->credits
 == controls
