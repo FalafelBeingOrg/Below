@@ -21,11 +21,11 @@ Below
 image: stab wound
 #delay: 2000
 How could you
--
+#clear
 image: tear in eye
 #delay: 2000
 We were friends
--
+#clear
 image: body falling into the abyss
 #clear
 ->actTwo
@@ -38,7 +38,7 @@ image: sillouete of a tall birdlike figure on a ferry
     "I'm Charon, God of the ferry"
     "I can paddle you across the river if you give me your coin"
     ++ What coin?
-        "The coin under your tongue from your burial"
+        "The coin from your burial"
         +++ I wasn't buried
 -
 "Who hurt you, young one?
@@ -89,10 +89,12 @@ He looks up as soon as you approach
 "Sup man! I'm Hermes! What're you up to? What's your story?"
 + I'de rather not talk about it 
     "Eh fair enough, tell Hades I says hi!"
+    #delay: 3000
 + I was murdered[] by a close friend 
     I'm goint to Hades to get my revenge
     "Damn bro you got issues man"
     "Tell Hades I says hi when you get there"
+    #delay: 300
 -
 -> actFive
 == actFive
@@ -105,6 +107,7 @@ You come to a massive pit
 Massive beings write in darkness
 image: black void hovering
 A black void hovers nearby, watching them
+It speaks
 "See them fuckers down there?"
 "Those are the titans"
 "They were locked there by Hades at the end of the last age"
@@ -123,6 +126,8 @@ he's a bitch when it comes time to make you an offer"
 image: hades citadel
 You come to Hade's Citadel
 It stands tall amongst the surrounding planes
+#delay: 2000
+#clear
 image: throne room with looming sillouete
 As you make your way to Hade's throne room, 
 you hear a booming laughter
@@ -134,21 +139,26 @@ you hear a booming laughter
     #delay: 1000
     "YOU HAVE NOTHING TO OFFER?"
     "LET ME THINK"
-    #delay: 6000
-    #clear
+    #delay: 10000
     "YOUR SOUL!!!"
-    #clear
+    #delay: 1000
     "YOUR SOUL FOR THEIRS!"
     +++ [Offer your soul to plunge your killer into the abyss as well] I'll do it 
+        #clear
+        #delay:4000
         image: infernal flames
         As the flames of Tartarus engulf your body,
         you see your killer buring along side you
+        #delay: 5000
         -> endCredits
     +++ [Live out your days in the Asphodel Meadows] I can't
         "HA HA HA HA HA"
+        #clear
+        #delay:4000
         Image: asphdel medows
         As you spend eternity in this empty field,
         you know your killer will never be brought to justice
+        #delay:4000
         -> endCredits
 -
 ->endCredits
