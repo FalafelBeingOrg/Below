@@ -75,7 +75,15 @@ You come across a man texting on his phone
 He looks up as soon as you approach
 "Sup man! I'm Hermes! What're you up to> What's your story?"
 + I'de rather not talk about it 
- "Eh fair enough, tell Hades 
+    "Eh fair enough, tell Hades I says hi!"
++ I was murdered[] by a close friend 
+    I'm goint to Hades to get my revenge
+    "Damn bro you got issues man"
+    "Tell Hades I says hi when you get there"
+-
+-> actFive
+== actFive
+
 -
 ->credits
 == controls
