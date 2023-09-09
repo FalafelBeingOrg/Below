@@ -1,7 +1,36 @@
 #title: Below
-#author: Timothy Garnett
-#play: act1party\
+#author: PaperLightbulb
+#play: act1party
 
+=== mainmenu
+
+image: hade's citadel
+
+- (menu)
+* [Begin] #clear
+* [Credits]#clear
+    -> credits
+* [Controls]
+    Use the mouse, "z", "x", and "c", or the number keys to navigate.
+    
+    If only one choice is available, you can press the space bar.
+    
+    Use the mousewheel or click and drag to scroll.
+
+-
+-> actOne
+== actOne
+
+->credits
+== credits
+
+Below
+    
+Created by PaperLightbulb
+    
+* [Restart] #restart
+* [End]
+    -> END
 -
 EXAMPLE AFTER CREDITS:
 image: stab wound
