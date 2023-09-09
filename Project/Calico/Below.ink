@@ -1,36 +1,51 @@
 #title: Below
 #author: PaperLightbulb
-#play: act1party
-
+//#play: act1party
+->mainmenu
 === mainmenu
 
 image: hade's citadel
 
 - (menu)
-* [Begin] #clear
-* [Credits]#clear
++ [Begin] #clear
++ [Credits]#clear
     -> credits
-* [Controls]
-    Use the mouse, "z", "x", and "c", or the number keys to navigate.
-    
-    If only one choice is available, you can press the space bar.
-    
-    Use the mousewheel or click and drag to scroll.
-
++ [Controls] #clear
+    -> controls
 -
 -> actOne
 == actOne
 
 ->credits
+== controls
+    Use the mouse, "z", "x", and "c", or the number keys to navigate.
+    
+    If only one choice is available, you can press the space bar.
+    
+    Use the mousewheel or click and drag to scroll.
+    + [Main Menu] #clear
+    -> mainmenu
 == credits
 
 Below
     
 Created by PaperLightbulb
     
-* [Restart] #restart
-* [End]
++ [Main Menu] #clear
+->mainmenu
+== endCredits
+
+Below
+    
+Created by PaperLightbulb
+
+Thank you for playing!
+    
++ [Main Menu] #clear
+    ->mainmenu
+* [End] #clear
     -> END
+
 -
 EXAMPLE AFTER CREDITS:
 image: stab wound
