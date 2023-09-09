@@ -36,4 +36,4 @@ choices.add(" ", 0, true, true);
 // -----------------------------------
 
 // create our game
-var story = new Story("rosegold.ink");
+var story = new Story("Below.ink");

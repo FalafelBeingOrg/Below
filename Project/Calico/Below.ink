@@ -1,7 +1,10 @@
-#title: rosegold
+#title: Below
 #author: Timothy Garnett
-#play: act1party
-image: stab wound #red
+#play: act1party\
+
+-
+EXAMPLE AFTER CREDITS:
+image: stab wound
 > Pain
 image: tear in an eye
 #clear
@@ -39,8 +42,6 @@ How was your journy here?
 -
 #clear
 -
-EXAMPLE AFTER CREDITS
-
 Once upon a time
 
  * f
