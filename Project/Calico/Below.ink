@@ -6,6 +6,7 @@
 
 image: hade's citadel
 
+Below
 - (menu)
 + [Begin] #clear
 + [Credits]#clear
@@ -15,18 +16,22 @@ image: hade's citadel
 -
 -> actOne
 == actOne
+#delay:4000
+#clear
 image: stab wound
-#delay 1000
+#delay: 2000
 How could you
 -
 image: tear in eye
-#delay 1000
+#delay: 2000
 We were friends
 -
 image: body falling into the abyss
 #clear
 ->actTwo
 == actTwo
+#delay:4000
+#clear
 image: sillouete of a tall birdlike figure on a ferry
 "Hello, young one"
 + Who are you?
@@ -45,16 +50,20 @@ image: sillouete of a tall birdlike figure on a ferry
 -
 "Well then"
 "I love a good vengence quest"
-#delay 2000
+#delay: 2000
 "I'll let you cross on one condition"
-#delay 100
+#delay: 1000
 + What's that?
 "You make a deal with Hades to kill that motherfucker"
+#clear
+#delay: 4000
 -
 > Bump
 You come to rest at the Asphodel Medows
 ->actThree
 == actThree
+#delay:4000
+#clear
 image: woman at a crossroads
 As you journy through the tall red grass, you come to a crossroads
 you see a woman standing up ahead
@@ -72,10 +81,12 @@ She notices you
 She points
 ->actFour
 ==actFour
+#delay:4000
+#clear
 image: hermes on his phone
 You come across a man texting on his phone
 He looks up as soon as you approach
-"Sup man! I'm Hermes! What're you up to> What's your story?"
+"Sup man! I'm Hermes! What're you up to? What's your story?"
 + I'de rather not talk about it 
     "Eh fair enough, tell Hades I says hi!"
 + I was murdered[] by a close friend 
@@ -85,6 +96,8 @@ He looks up as soon as you approach
 -
 -> actFive
 == actFive
+#delay:4000
+#clear
 You hear infernal screaming
 -
 image: tartarus
@@ -105,6 +118,8 @@ he's a bitch when it comes time to make you an offer"
 -
 ->actSix
 == actSix
+#delay:4000
+#clear
 image: hades citadel
 You come to Hade's Citadel
 It stands tall amongst the surrounding planes
@@ -116,10 +131,10 @@ you hear a booming laughter
  "WHAT DO YOU HAVE TO OFFER?"
  ++ I have to offer something?
     "HA HA HA HA HA"
-    #delay 1000
+    #delay: 1000
     "YOU HAVE NOTHING TO OFFER?"
     "LET ME THINK"
-    #delay 6000
+    #delay: 6000
     #clear
     "YOUR SOUL!!!"
     #clear
@@ -128,16 +143,17 @@ you hear a booming laughter
         image: infernal flames
         As the flames of Tartarus engulf your body,
         you see your killer buring along side you
-        ->credits
+        -> endCredits
     +++ [Live out your days in the Asphodel Meadows] I can't
         "HA HA HA HA HA"
         Image: asphdel medows
         As you spend eternity in this empty field,
         you know your killer will never be brought to justice
-        -> credits
+        -> endCredits
 -
-->credits
+->endCredits
 == controls
+#clear
     Use the mouse, "z", "x", and "c", or the number keys to navigate.
     
     If only one choice is available, you can press the space bar.
@@ -146,6 +162,7 @@ you hear a booming laughter
     + [Main Menu] #clear
     -> mainmenu
 == credits
+#clear
 
 Below
     
@@ -154,6 +171,8 @@ Created by PaperLightbulb
 + [Main Menu] #clear
 ->mainmenu
 == endCredits
+#delay:6000
+#clear
 
 Below
     
@@ -175,12 +194,12 @@ image: tear in an eye
 -
 John
 How could you
-#delay 1500
+#delay: 1500
 We were friends
 #clear
 - 
 image: inky blackness
-#delay 3000
+#delay: 3000
 image: body falling down into the abyss
 #clear
 -
@@ -190,7 +209,7 @@ image: eye opened
 -
 image: boat operated by tall bird god
 Welcome #red
-#delay 1500
+#delay:1500
 Welcome to the underworld #red
 #clear
 -
